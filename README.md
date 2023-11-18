@@ -20,7 +20,12 @@ $ pip install -r requirements.txt
 $ docker build -t rnn-time-series .
 $ docker run -it rnn-time-series
 
-User input should be between Jan to Dec, the prediction will be shown per the month.
+User input should be between Jan to Dec, the prediction will be shown per the given month.
+
+Expected output
+(1) plot1.png
+(2) plot2.png
+(3) trained_mode.pth
 
 ## License
 
