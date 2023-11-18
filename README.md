@@ -14,11 +14,13 @@ This project implements a custom RNN model for time series prediction using PyTo
 
 $ git clone https://github.com/SilverKim/Prediction_counts.git
 
+
 $ cd Prediction_counts
 
 $ pip install -r requirements.txt
 
 $ docker build -t rnn-time-series .
+
 
 $ docker run -it rnn-time-series
 
