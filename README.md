@@ -12,12 +12,14 @@ This project implements a custom RNN model for time series prediction using PyTo
 
 ## Usage: how to run
 
-$ git clone https://github.com/your-username/rnn-time-series-prediction.git
-$ cd rnn-time-series-prediction
+$ git clone https://github.com/SilverKim/Prediction_counts.git
+
+$ cd Prediction_counts
 
 $ pip install -r requirements.txt
 
 $ docker build -t rnn-time-series .
+
 $ docker run -it rnn-time-series
 
 User input should be between Jan to Dec, the prediction will be shown per the given month.
